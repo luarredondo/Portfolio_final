@@ -1,0 +1,88 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(media/background.jpg);
+}
+
+nav{
+    text-align: center;
+    font-size: 20px;
+}
+
+ul{
+    display: flex;
+    justify-content:space-around;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+nav li{
+    display: inline;
+    list-style: none;
+}
+
+image{
+    width: 100%;;
+
+}
+
+
+/*Debut acceuil*/
+
+.acceuil{
+    text-align: center;
+    color: white;
+}
+
+.parcours{
+    color:white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 55%;
+}
+
+.parcoursGauche{
+    width: 60%;
+    margin-right: 10px;
+}
+.parcoursImage{
+    margin-top: 2%;
+    float: right;
+}
+
+/*Début études*/
+
+.etude{
+    background-image: url("fondPorteFolio.jpg");
+    padding-bottom: 10%;
+}
+.titreEtude{
+    text-align: center;
+    color: white;
+}
+
+.etude h1{
+    text-align: center;
+}
+
+.etudeEcole{
+    margin-left: 23%;
+}
+
+.ecole{
+    width: 70%;
+    height: 20%;
+    background-color: grey;
+    align-items: center;
+}
+
+.ecole img{
+    margin-left: 43%;
+    width: 15%;
+    height: 20%;
+}
+
