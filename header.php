@@ -1,6 +1,5 @@
 <?php
 //génère l'entete 
-require 'sqlconnect.php';
 
 ?>
 
