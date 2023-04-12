@@ -15,6 +15,7 @@ body{
     background-image: url(media/background.jpg);
     background-attachment: fixed;
     font-family: 'Poppins', sans-serif;
+    background-repeat: no-repeat;
 }
 
 /*index*/
